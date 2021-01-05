@@ -22,6 +22,8 @@ server.listen(port, () => {
   console.log(`Server running at PORT:${port}/`);
 });
 
+const charactersNames = require("./charactersNameShort");
+
 const takeCharacterData = async (characterNameData) => {
   const characterName = characterNameData.replace(" ", "_");
   try {
@@ -34,7 +36,13 @@ const takeCharacterData = async (characterNameData) => {
     });
     const { document } = dom.window;
     const name = document.getElementById("firstHeading").innerHTML;
-    const bio = document.querySelector(".mw-parser-output > p").innerHTML;
+    const biographElement = document.querySelector(".mw-parser-output");
+    const bioPharagraphs = biographElement.getElementsByTagName("p");
+    console.log({ bioPharagraphs: bioPharagraphs.length, name });
+    const bio =
+      bioPharagraphs.length <= 3
+        ? bioPharagraphs[0].innerHTML
+        : bioPharagraphs[1].innerHTML;
     const avatar_url = document.querySelector(".image > img").src;
 
     const character = { name, bio, avatar_url };
@@ -44,4 +52,11 @@ const takeCharacterData = async (characterNameData) => {
   }
 };
 
-takeCharacterData("A Baleia (Procurando Nemo)").then((msg) => console.log(msg));
+const handleAllNamesCharacters = async () => {
+  const characters = charactersNames.map((nameCharacter) =>
+    takeCharacterData(nameCharacter)
+  );
+  return Promise.all(characters);
+};
+
+handleAllNamesCharacters().then((characters) => console.log(characters));
