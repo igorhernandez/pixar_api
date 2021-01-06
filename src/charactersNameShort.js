@@ -1,10 +1,9 @@
 const charactersNames = [
-  "22",
-  "A Baleia (Procurando Nemo)",
-  "Zezé Pêra",
-  "Emoções da Sra. Andersen",
-  "Sr. Cabeça-de-Batata",
-  "Beto Pêra",
+  {
+    name: "Cardume",
+    avatar_url:
+      "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+  },
 ];
 
 module.exports = charactersNames;
