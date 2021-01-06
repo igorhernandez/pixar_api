@@ -82,7 +82,7 @@ const charactersArray = [
   {
     name: "Arlo",
     bio:
-      "Arlo é um protagonista e personagem do filme de 2015 da Disney/Pixar, O Bom Dinossauro. Ele é um apatossauro vivendo com seus pais e irmãos.\n",
+      "Arlo é um protagonista e personagem do filme de 2015 da Disney/Pixar, O Bom Dinossauro. Ele é um apatossauro vivendo com seus pais e irmãos.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/54/Sorcerer_Mickey_sparkling.png/revision/latest/scale-to-width-down/100?cb=20181120193512&path-prefix=pt-br",
   },
@@ -156,7 +156,7 @@ const charactersArray = [
   {
     name: "Betty",
     bio:
-      "Betty é uma personagem maior na franquia de Toy Story. Ela é uma boneca de porcelana com a aparência de uma pastora de ovelhas e é apaixonada por Faustão. Ela é dublada por Annie Potts.\n",
+      "Betty é uma personagem maior na franquia de Toy Story. Ela é uma boneca de porcelana com a aparência de uma pastora de ovelhas e é apaixonada por Faustão. Ela é dublada por Annie Potts.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/54/Sorcerer_Mickey_sparkling.png/revision/latest/scale-to-width-down/100?cb=20181120193512&path-prefix=pt-br",
   },
@@ -339,7 +339,7 @@ const charactersArray = [
   {
     name: "Carla Veloso",
     bio:
-      "Na versão brasileira, Carla é dublada pela cantora brasileira Claudia Leitte.[1] A gravação da Claudia onde apenas Carla na personagem Jeff Gorvette na cena na versão brasileira onde ele conhecer Relâmpago McQueen e Lewis Hamilton (que é renomeado depois e voz de Emerson Fittipaldi na versão brasileira)[2]\n",
+      "Na versão brasileira, Carla é dublada pela cantora brasileira Claudia Leitte.[1] A gravação da Claudia onde apenas Carla na personagem Jeff Gorvette na cena na versão brasileira onde ele conhecer Relâmpago McQueen e Lewis Hamilton (que é renomeado depois e voz de Emerson Fittipaldi na versão brasileira)[2]",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/2/23/Ve3.jpg/revision/latest/scale-to-width-down/258?cb=20200718155652&path-prefix=pt-br",
   },
@@ -467,7 +467,7 @@ const charactersArray = [
   },
   {
     name: "Darren Leadfoot",
-    bio: [],
+    bio: "Darren Leadfoot é um carro de corrida de Carros",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/c/c6/Darren_Leadfoot.png/revision/latest/scale-to-width-down/220?cb=20190511221627&path-prefix=pt-br",
   },
@@ -487,13 +487,13 @@ const charactersArray = [
   },
   {
     name: "Dirkson D'Agostino",
-    bio: [],
+    bio: "Dirkson D'Agostino é um carro de corrida da Copa Pistão em Carros",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/8/82/Dirkson_D%27Agostino.png/revision/latest/scale-to-width-down/258?cb=20190806033253&path-prefix=pt-br",
   },
   {
     name: "Doc Hudson",
-    bio: [],
+    bio: "Vovô (antigamente (por Relâmpago McQueen)",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/d/dd/Doc_Hudson.png/revision/latest/scale-to-width-down/258?cb=20170611203719&path-prefix=pt-br",
   },
@@ -519,7 +519,7 @@ const charactersArray = [
   },
   {
     name: "Dragões",
-    bio: [],
+    bio: "Dragões são criaturas lendários,",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/1/18/Maleficent-%282014%29-114.png/revision/latest/scale-to-width-down/250?cb=20170820201615&path-prefix=pt-br",
   },
@@ -545,7 +545,7 @@ const charactersArray = [
   },
   {
     name: "Earl",
-    bio: [],
+    bio: "Earl é um velociraptor que aparece em O Bom Dinossauro",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/3/37/Earl_scared.png/revision/latest/scale-to-width-down/258?cb=20190809212345&path-prefix=pt-br",
   },
@@ -633,14 +633,14 @@ const charactersArray = [
   },
   {
     name: "Eugene Carbureski",
-    bio: [],
+    bio: "Eugene Carbureski é um carro de corrida da Copa Pistão em Carros",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/5f/Eugene_Carbureski.png/revision/latest/scale-to-width-down/228?cb=20190824112548&path-prefix=pt-br",
   },
   {
     name: "EVA",
     bio:
-      "EVA (Extraterrestrial Vegetation Evaluator) é uma antagonista no filme animado de 2008 da Disney/Pixar, WALL-E. Ela é dublada por Elissa Knight.\n",
+      "EVA (Extraterrestrial Vegetation Evaluator) é uma antagonista no filme animado de 2008 da Disney/Pixar, WALL-E. Ela é dublada por Elissa Knight.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/54/Sorcerer_Mickey_sparkling.png/revision/latest/scale-to-width-down/100?cb=20181120193512&path-prefix=pt-br",
   },
@@ -666,7 +666,7 @@ const charactersArray = [
   },
   {
     name: "Fillmore (Carros)",
-    bio: [],
+    bio: "Fillmore é um personagem de Carros. Ele é uma kombi hippie 1960.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/3/3f/Image_%281%29.png/revision/latest/scale-to-width-down/258?cb=20190518215544&path-prefix=pt-br",
   },
@@ -679,13 +679,14 @@ const charactersArray = [
   {
     name: "Flecha Pêra",
     bio:
-      "Flecha Roberto Pêra é um dos tritagonistas no filme de 2004 da Disney/Pixar, Os Incríveis e sua continuação de 2018. Ele é o filho de Beto e Helena Pêra e seu irmão mais jovem Zezé Pêra e irmã mais velha Violeta Pêra. Flecha tem super-poderes de correr veloz.\n",
+      "Flecha Roberto Pêra é um dos tritagonistas no filme de 2004 da Disney/Pixar, Os Incríveis e sua continuação de 2018. Ele é o filho de Beto e Helena Pêra e seu irmão mais jovem Zezé Pêra e irmã mais velha Violeta Pêra. Flecha tem super-poderes de correr veloz.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/a/a5/I2_-_Dash.png/revision/latest/scale-to-width-down/258?cb=20180827020219&path-prefix=pt-br",
   },
   {
     name: "Flik",
-    bio: [],
+    bio:
+      "Flik é um protagonista do filme de 1998 da Disney/Pixar, Vida de Inseto.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/54/Sorcerer_Mickey_sparkling.png/revision/latest/scale-to-width-down/100?cb=20181120193512&path-prefix=pt-br",
   },
@@ -751,7 +752,7 @@ const charactersArray = [
   {
     name: "Gelado",
     bio:
-      "Lúcio Barro (conhecido como Gelado) é um personagem maior do filme de 2004 da Disney/Pixar, Os Incríveis e sua continuação no futuro filme, Os Incríveis 2.\n",
+      "Lúcio Barro (conhecido como Gelado) é um personagem maior do filme de 2004 da Disney/Pixar, Os Incríveis e sua continuação no futuro filme, Os Incríveis 2.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/e/ed/I2_-_Frozone_2.png/revision/latest/scale-to-width-down/258?cb=20180910193551&path-prefix=pt-br",
   },
@@ -783,7 +784,7 @@ const charactersArray = [
   },
   {
     name: "Gray (Carros)",
-    bio: [],
+    bio: "Gray é um caminhão que Transporta o Corredor Rei de Carros",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/c/c0/Imag.png/revision/latest/scale-to-width-down/258?cb=20190514220641&path-prefix=pt-br",
   },
@@ -933,7 +934,7 @@ const charactersArray = [
   {
     name: "Jill Andersen",
     bio:
-      "\nJill Andersen é uma personagem do filme de 2015 da Disney/Pixar, Divertida Mente. Ela é a mãe de Riley Andersen. Ela é dublada por Diane Lane.\n",
+      "Jill Andersen é uma personagem do filme de 2015 da Disney/Pixar, Divertida Mente. Ela é a mãe de Riley Andersen. Ela é dublada por Diane Lane.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/4/43/Riley%27s_Mother.jpg/revision/latest/scale-to-width-down/258?cb=20150619194044&path-prefix=pt-br",
   },
@@ -975,14 +976,14 @@ const charactersArray = [
   {
     name: "Jovem MacGuffin",
     bio:
-      "Jovem MacGuffin é um personagem menor em Valente. Ele é filho do Lorde MacGuffin, e um dos pretendentes concorrentes para a mão da Mérida em casamento. Ele é dublado por Kevin McKidd no original e Sérgio Cantú na versão brasileira.\n",
+      "Jovem MacGuffin é um personagem menor em Valente. Ele é filho do Lorde MacGuffin, e um dos pretendentes concorrentes para a mão da Mérida em casamento. Ele é dublado por Kevin McKidd no original e Sérgio Cantú na versão brasileira.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/d/d2/YoungMacguffin-Brave.png/revision/latest/scale-to-width-down/220?cb=20150922024252&path-prefix=pt-br",
   },
   {
     name: "Jovem Macintosh",
     bio:
-      "Jovem Macintosh é um personagem menor em&nbsp;Valente. Ele é filho de Lorde Macintosh, e um dos pretendentes concorrentes para a mão da Princesa Mérida em casamento.\n",
+      "Jovem Macintosh é um personagem menor em&nbsp;Valente. Ele é filho de Lorde Macintosh, e um dos pretendentes concorrentes para a mão da Princesa Mérida em casamento.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/8/80/YoungMacintosh.jpeg/revision/latest/scale-to-width-down/211?cb=20151112024352&path-prefix=pt-br",
   },
@@ -1030,12 +1031,6 @@ const charactersArray = [
       "Libby é uma personagem do filme de 2015 da Disney/Pixar, O Bom Dinossauro. Ela é a irmã do Arlo.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/53/Libby_Render.png/revision/latest/scale-to-width-down/258?cb=20151122221850&path-prefix=pt-br",
-  },
-  {
-    name: "Lista de Vilões da Pixar",
-    bio: [],
-    avatar_url:
-      "https://static.wikia.nocookie.net/disney/images/f/f6/Pixar_villains.png/revision/latest/scale-to-width-down/250?cb=20170808195216&path-prefix=pt-br",
   },
   {
     name: "Lizzie (Carros)",
@@ -1244,7 +1239,7 @@ const charactersArray = [
   {
     name: "Nemo",
     bio:
-      "Nemo é o personagem títular do filme de 2003 da Disney/Pixar, Procurando Nemo e um personagem menor da continuação em 2016. É um personagem jogável em Procurando Nemo.\n",
+      "Nemo é o personagem títular do filme de 2003 da Disney/Pixar, Procurando Nemo e um personagem menor da continuação em 2016. É um personagem jogável em Procurando Nemo.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/54/Sorcerer_Mickey_sparkling.png/revision/latest/scale-to-width-down/100?cb=20181120193512&path-prefix=pt-br",
   },
@@ -1318,7 +1313,7 @@ const charactersArray = [
   },
   {
     name: "Ponchy Wipeout",
-    bio: [],
+    bio: "Ponchy Wipeout é um carro de corrida da Copa Pistão em Carros",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/b/bc/Ponchy_Wipeout.png/revision/latest/scale-to-width-down/220?cb=20190514225732&path-prefix=pt-br",
   },
@@ -1371,7 +1366,7 @@ const charactersArray = [
   {
     name: "Randall Boggs",
     bio:
-      'Randall "Randy" Boggs é um antagonista secundário do filme de 2001 da Disney/Pixar, Monstros S.A. e o antagonista do filme de 2013, Universidade Monstros.\n',
+      'Randall "Randy" Boggs é um antagonista secundário do filme de 2001 da Disney/Pixar, Monstros S.A. e o antagonista do filme de 2013, Universidade Monstros.',
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/54/Sorcerer_Mickey_sparkling.png/revision/latest/scale-to-width-down/100?cb=20181120193512&path-prefix=pt-br",
   },
@@ -1391,7 +1386,8 @@ const charactersArray = [
   },
   {
     name: "Remy",
-    bio: [],
+    bio:
+      "Remy é um protagonista no filme de 2007 da Disney/Pixar, Ratatouille.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/54/Sorcerer_Mickey_sparkling.png/revision/latest/scale-to-width-down/100?cb=20181120193512&path-prefix=pt-br",
   },
@@ -1423,7 +1419,7 @@ const charactersArray = [
   },
   {
     name: "Ronald (Carros 3)",
-    bio: [],
+    bio: "Ronald é um carro de corrida estágiario da nova geração de Carros 3",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/4/49/Ronald-0.png/revision/latest/scale-to-width-down/258?cb=20190731192202&path-prefix=pt-br",
   },
@@ -1450,7 +1446,7 @@ const charactersArray = [
   },
   {
     name: "Ryan Shields",
-    bio: [],
+    bio: "Ryan Shields é um carro de corrida da Copa Pistão em Carros",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/d/da/RyanShields.png/revision/latest/scale-to-width-down/258?cb=20190514225914&path-prefix=pt-br",
   },
@@ -1497,7 +1493,7 @@ const charactersArray = [
   },
   {
     name: "Smokey",
-    bio: [],
+    bio: "Smokey é um personagem em Carros 3",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/b/b2/Smokey.png/revision/latest/scale-to-width-down/258?cb=20190810012952&path-prefix=pt-br",
   },
@@ -1597,7 +1593,7 @@ const charactersArray = [
   },
   {
     name: "Tex (THX)",
-    bio: [],
+    bio: "Tex é um personagem robô.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/6/61/Tex_-_THX.jpg/revision/latest/scale-to-width-down/250?cb=20180528191352&path-prefix=pt-br",
   },
@@ -1666,14 +1662,14 @@ const charactersArray = [
   {
     name: "WALL-E (personagem)",
     bio:
-      "WALL-E (mais conhecido como Waste Allocation Load Lifter - Earth-Class) é um personagem titular e protagonista no filme de 2008 da Disney/Pixar, WALL-E. Ele é dublado por Ben Burtt.\n",
+      "WALL-E (mais conhecido como Waste Allocation Load Lifter - Earth-Class) é um personagem titular e protagonista no filme de 2008 da Disney/Pixar, WALL-E. Ele é dublado por Ben Burtt.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/5/54/Sorcerer_Mickey_sparkling.png/revision/latest/scale-to-width-down/100?cb=20181120193512&path-prefix=pt-br",
   },
   {
     name: "Wee Dingwall",
     bio:
-      "Wee Dingwall&nbsp;é um personagem menor em&nbsp;Valente. Ele é filho de Lorde Dingwall, e um dos pretendentes concorrentes para a mão da Mérida em casamento. Ele é dublado por Callum O' Neill no original e Charles Emmanuel na versão brasileira.&nbsp;\n",
+      "Wee Dingwall&nbsp;é um personagem menor em&nbsp;Valente. Ele é filho de Lorde Dingwall, e um dos pretendentes concorrentes para a mão da Mérida em casamento. Ele é dublado por Callum O' Neill no original e Charles Emmanuel na versão brasileira.&nbsp;",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/8/86/Wee.png/revision/latest/scale-to-width-down/201?cb=20150920035947&path-prefix=pt-br",
   },

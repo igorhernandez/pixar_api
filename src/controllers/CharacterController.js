@@ -26,8 +26,9 @@ module.exports = {
       const biosFiltered = bioArray
         .map((bio) => cleanTags(bio.innerHTML))
         .filter((bioContent, index) => {
-          if (bioContent && bioContent.length > 100) {
+          if (bioContent && bioContent.length > 20) {
             if (!bioContent.includes("é  um artigo destacado") && index <= 3) {
+              console.log(bioContent);
               return true;
             } else {
               return false;
@@ -71,7 +72,7 @@ module.exports = {
 
     const handleAllNamesCharacters = async () => {
       const characters = charactersArray.map((character) =>
-        character.bio === "" ? takeCharacterData(character) : character
+        character.bio.length === 0 ? takeCharacterData(character) : character
       );
       return Promise.all(characters);
     };
