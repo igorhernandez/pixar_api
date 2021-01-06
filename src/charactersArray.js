@@ -1729,7 +1729,8 @@ const charactersArray = [
   },
   {
     name: "Zezé Pêra",
-    bio: "Zezé possui 17 super-poderes que são:",
+    bio:
+      "Zezé Pêra é o terceiro filho do casal protagonista no filme de 2004 da Disney/Pixar, Os Incríveis e sua sequência de 2018, Os Incríveis 2. Ele é o bebê da família Pêra e seus poderes. Ele sua aparição na curta O Ataque do Zezé como seus super-poderes.",
     avatar_url:
       "https://static.wikia.nocookie.net/disney/images/4/41/I2_-_Jack-Jack.png/revision/latest/scale-to-width-down/258?cb=20180601022955&path-prefix=pt-br",
   },
